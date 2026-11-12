@@ -1,0 +1,159 @@
+DOMAINE: Internet
+
+QUESTION: Comment internet a-t-il vu le jour?
+
+Processus reconstruits : de l'idÈe au rÈseau mondial
+Processus 1 — La vision fondatrice (1962-1966) : penser le rÈseau avant de le construire
+En 1962, le psychologue et informaticien du MIT Joseph C. R. Licklider, nommÈ ‡ la tÍte du bureau
+de traitement de l'information de l'ARPA, publie la vision d'un ´ rÈseau galactique ª d'ordinateurs
+interconnectÈs (Intergalactic Computer Network) : l'idÈe que des ordinateurs doivent communiquer
+entre eux plutÙt que fonctionner isolÈment. C'est ce programme conceptuel, et non une commande
+militaire prÈcise, qui oriente les financements de l'ARPA pendant toute la dÈcennie (WikipÈdia —
+Histoire d'Internet, WikipÈdia — ARPANET).
+Personnages clÈs : J. C. R. Licklider (vision), Robert Taylor (successeur ‡ l'ARPA, initiateur du projet
+en 1966).
+Processus 2 — L'invention de la commutation de paquets (1961-1968)
+Trois chercheurs, indépendamment, inventent le cœur technologique d'Internet :
+• Leonard Kleinrock (MIT) pose dËs 1961-1964 les fondements mathÈmatiques (thÈorie des files
+d'attente appliquÈe aux rÈseaux) avec sa thËse Information Flow in Large Communication Nets
+(WikipÈdia — Paul Baran).
+• Paul Baran (RAND Corporation, financÈe par le DÈpartement de la DÈfense) dÈveloppe dËs
+1962-1964 le ´ Distributed Adaptive Message Block Switching ª : dÈcouper l'information en petits
+blocs acheminÈs indÈpendamment, pour un rÈseau dÈcentralisÈ tolÈrant aux pannes (WikipÈdia —
+Commutation de paquets, WikipÈdia — Paul Baran).
+• Donald Davies (National Physical Laboratory, Royaume-Uni) redÈcouvre le concept en 1965, lui
+donne son nom moderne — packet switching — et le met en œuvre : le réseau du NPL devient
+opÈrationnel en 1969, en mÍme temps qu'ARPANET (WikipÈdia — Commutation de paquets).
+C'est la rencontre dÈcisive : en octobre 1967, lors du premier Symposium on Operating Systems
+Principles, le travail de Davies est prÈsentÈ ‡ l'Èquipe amÈricaine (par Roger Scantlebury), qui adopte
+la commutation de paquets pour ARPANET et porte le dÈbit prÈvu de 2,4 kbit/s ‡ 50 kbit/s (WikipÈdia
+— ARPANET).
+Point de vigilance (mythe frÈquent) : l'idÈe qu'ARPANET aurait ÈtÈ conÁu ´ pour rÈsister ‡ une
+attaque nuclÈaire ª est une reconstruction postÈrieure ; le but documentÈ Ètait le partage de ressources
+informatiques entre centres de recherche, l'objectif militaire de Baran n'ayant ÈtÈ qu'une matrice
+intellectuelle parmi d'autres (WikipÈdia — ARPANET).
+Processus 3 — La construction d'ARPANET (1966-1972)
+• 1966 : Robert Taylor obtient du directeur de l'ARPA Charles Herzfeld un million de dollars
+(prÈlevÈs sur un programme de dÈfense antimissile) et recrute Larry Roberts en janvier 1967
+comme directeur du programme rÈseau (WikipÈdia — ARPANET).
+• 1967 : l'idÈe de Wesley Clark d'utiliser des mini-ordinateurs dÈdiÈs comme interface — les IMP
+(Interface Message Processors) — rÈsout le problËme du refus des universitÈs de mobiliser leurs
+gros calculateurs (WikipÈdia — ARPANET).
+
+• 1968-1969 : le contrat de construction des IMP est attribuÈ ‡ l'entreprise BBN (Bolt Beranek and
+Newman), o˘ Frank Heart dirige l'ingÈnierie et Bob Kahn conÁoit le premier protocole rÈseau
+(WikipÈdia — ARPANET).
+• 29 octobre 1969 : première transmission entre l'UCLA (nœud de Kleinrock) et le Stanford
+Research Institute. L'Ètudiant Charley Kline tente d'envoyer ´ LOGIN ª ; le systËme plante aprËs
+´ L ª et ´ O ª — les deux premiËres lettres transmises d'un rÈseau ‡ commutation de paquets
+(France Culture — Arpanet, l'ancÍtre d'internet). Fin 1969, quatre nœuds (UCLA, SRI, UC Santa
+Barbara, UniversitÈ de l'Utah) sont reliÈs (WikipÈdia — Histoire d'Internet).
+• 1970 : mise en place du protocole hÙte-‡-hÙte NCP (Network Control Program), pilotÈ par Steve
+Crocker ‡ l'UCLA avec d'autres Ètudiants dont Jon Postel ; le rÈseau est dÈclarÈ opÈrationnel en
+1971 (WikipÈdia — ARPANET).
+Processus dÈcisif en parallËle — les RFC : le 7 avril 1969, Steve Crocker publie le RFC 1 (´ Host
+Software ª), inaugurant le processus de documentation ouverte et coopÈrative qui dÈfinira tous les
+standards d'Internet. N'osant appeler sa proposition une ´ norme ª, il l'intitule ´ demande de
+commentaires ª (WikipÈdia — Histoire d'Internet, ICANNWiki — Jon Postel).
+Personnages clÈs : Robert Taylor, Larry Roberts, Charles Herzfeld, Wesley Clark, Frank Heart, Bob
+Kahn, Leonard Kleinrock, Steve Crocker, Jon Postel, Charley Kline.
+Processus 4 — Le courriel, premiËre ´ killer app ª (1971)
+Chez BBN, Ray Tomlinson adapte le programme local SNDMSG en y intÈgrant son CPYNET de
+transfert de fichiers : le premier courrier Èlectronique entre deux machines diffÈrentes est envoyÈ en
+1971 sur ARPANET. Tomlinson choisit le symbole @ pour sÈparer l'utilisateur et la machine — format
+toujours en usage aujourd'hui (WikipÈdia — Ray Tomlinson, WikipÈdia — History of email). Le
+courriel devient trËs vite l'application dominante d'ARPANET et la premiËre preuve sociale de l'utilitÈ
+des rÈseaux.
+Processus 5 — L'interconnexion : du rÈseau au ´ rÈseau de rÈseaux ª (1972-1983)
+C'est ici qu'Internet proprement dit naÓt, au sens d'un internetwork reliant des rÈseaux hÈtÈrogËnes :
+• 1972 : ‡ la confÈrence ICCC de Washington, Bob Kahn organise la premiËre dÈmonstration
+publique d'ARPANET, avec le premier courriel de groupe. Kahn part ensuite ‡ la DARPA pour
+rÈsoudre un problËme nouveau : relier ARPANET aux rÈseaux radio et satellite (packet radio)
+(WikipÈdia — ARPANET).
+• 1973 — la contribution franÁaise : Louis Pouzin dirige le projet Cyclades (IRIA/INRIA), qui
+introduit le datagramme et l'architecture en ´ hub-and-spoke ª o˘ un rÈseau minimaliste relie les
+rÈseaux existants sans les centraliser. Kahn et Cerf s'en inspirent directement (WikipÈdia — Louis
+Pouzin, Polytechnique — Louis Pouzin).
+• Mai 1974 : Vinton Cerf (Stanford) et Bob Kahn (DARPA) publient A Protocol for Packet
+Network Intercommunication — le protocole TCP et le concept de passerelle (gateway) entre
+rÈseaux. Cerf et Kahn intËgrent aussi les idÈes de Bob Metcalfe ‡ Xerox PARC (WikipÈdia —
+ARPANET).
+• 1978 : TCP est scindÈ en TCP (fiabilitÈ, bout en bout) et IP (adressage et routage des
+datagrammes) — la sÈparation dÈcisive qui rend le modËle extensible (WikipÈdia — ARPANET).
+
+• 1981 : Jon Postel Ècrit la RFC 801 (NCP/TCP Transition Plan, novembre 1981) : ´ l'objectif est
+un basculement complet de NCP vers IP/TCP au 1er janvier 1983 ª (CenterConsulting — Internet
+Flag Day).
+• 1er janvier 1983 — le ´ flag day ª : ARPANET (environ 250 machines) abandonne NCP pour
+TCP/IP, imposÈ comme standard par le Department of Defense pour tous les rÈseaux militaires
+informatiques. Le mÍme mouvement sÈpare le rÈseau militaire MILNET d'ARPANET. Ce
+basculement coordonnÈ — le dernier ´ flag day ª de l'histoire d'Internet — est la date de naissance
+opÈrationnelle du rÈseau des rÈseaux (BNF Passerelles — Naissance officielle d'Internet, Blog
+StÈphane Bortzmeyer, WikipÈdia — ARPANET).
+Personnages clÈs : Vinton Cerf, Bob Kahn, Louis Pouzin, Jon Postel.
+Processus 6 — La diffusion par les rÈseaux locaux et Unix (1973-1983)
+Deux processus rendent TCP/IP omniprÈsent hors des laboratoires :
+• Ethernet (1973) : Robert Metcalfe et David Boggs inventent Ethernet au Xerox PARC (mÈmo
+du 22 mai 1973, premier fonctionnement le 11 novembre 1973), ‡ partir du rÈseau radio
+ALOHAnet d'HawaÔ. Metcalfe fonde 3Com en 1979 et impose le standard DIX (DEC-IntelXerox), ratifiÈ par l'IEEE — les rÈseaux locaux Ethernet deviennent le socle physique de
+l'extension d'Internet (WikipÈdia — Robert Metcalfe, WikipÈdia — Robert Metcalfe (en)).
+• TCP/IP dans Unix BSD (1979-1983) : la DARPA finance (1979-1988) l'universitÈ de Berkeley
+pour intÈgrer TCP/IP ‡ son Unix. Bill Joy jugeant l'implÈmentation de BBN insuffisante, rÈÈcrit
+lui-mÍme la pile TCP/IP, livrÈe dans 4.2BSD en ao˚t 1983 avec l'interface sockets — qui devient
+l'API de programmation de rÈfÈrence et diffuse TCP/IP dans toutes les universitÈs du monde
+(WikipÈdia — Berkeley Software Distribution, Klara Systems — BSD and TCP/IP, WikipÈdia —
+Bill Joy).
+Personnages clÈs : Robert Metcalfe, David Boggs, Bill Joy.
+Processus 7 — Les couches sociales : Usenet et le DNS (1979-1984)
+• Usenet (1979) : les Ètudiants de Duke Tom Truscott et Jim Ellis crÈent un systËme mondial de
+groupes de discussion b‚ti sur UUCP (connexions par modem), opÈrationnel en 1980 ; Steve
+Bellovin (UNC) Ècrit le logiciel de la premiËre version. Usenet, qui a popularisÈ ´ FAQ ª, ´ spam
+ª ou ´ flame ª, est le premier espace social distribuÈ ‡ grande Èchelle (WikipÈdia — Usenet,
+Britannica — USENET, WikipÈdia — Tom Truscott).
+• DNS (1983) : la croissance du rÈseau rend intenable la table centrale HOSTS.TXT tenue par le
+SRI. Paul Mockapetris conÁoit le Domain Name System, spÈcifiÈ dans les RFC 882 et 883
+(novembre 1983) : une base hiÈrarchique et distribuÈe de noms de domaine. Jon Postel co-signe
+plusieurs RFC fondatrices du DNS (CIGREF — 1983, du nom de domaine au DNS, WikipÈdia
+— Paul Mockapetris, WikipÈdia — Jon Postel).
+
+Processus 8 — L'ouverture civile et commerciale : NSFNET puis privatisation (1981-
+1995)
+• 1981 : CSNET relie les universitÈs non raccordÈes ‡ ARPANET ; 1986 : la National Science
+Foundation dÈploie NSFNET, dorsale ‡ 56 kbit/s (passÈe ‡ T1 en 1988) reliant les centres de
+supercalculateurs, qui devient rapidement la colonne vertÈbrale d'Internet et relie les rÈseaux du
+monde entier (WikipÈdia — National Science Foundation Network).
+• 30 avril 1995 : NSFNET cËde la place aux dorsales commerciales privÈes : ´ la naissance
+d'Internet commercial ª est le fruit direct d'un programme public de recherche long de deux
+dÈcennies (NSF — Birth of the Commercial Internet, WikipÈdia — National Science Foundation
+Network).
+Personnages clÈs : Steve Wolff (NSF), et l'ensemble de la communautÈ universitaire mondiale
+(JANET, RENATER, etc.).
+Processus 9 — Le Web : la couche qui rend Internet lisible par tous (1989-1994)
+• Mars 1989 : au CERN de GenËve, Tim Berners-Lee soumet la proposition Information
+Management: A Proposal ; en 1990, sur un ordinateur NeXT, il crÈe les trois technologies du
+World Wide Web : HTTP (protocole), HTML (langage) et les URL (adressage), plus le premier
+navigateur-Èditeur (CERN — A short history of the Web, WikipÈdia — Tim Berners-Lee).
+• 6 ao˚t 1991 : mise en ligne du premier site web (info.cern.ch), rendu public gratuitement et sans
+redevance par le CERN — une dÈcision de brevet volontairement nulle, dÈcisive pour l'adoption
+(CERN — A short history of the Web).
+• 1993 : NCSA Mosaic, navigateur graphique de Marc Andreessen et Eric Bina (UniversitÈ de
+l'Illinois), popularise le Web auprËs du grand public ; Andreessen fonde Netscape en 1994
+(WikipÈdia — NCSA Mosaic, WikipÈdia — Marc Andreessen, WikipÈdia — History of the World
+Wide Web).
+Processus 10 — La gouvernance : de l'artisanat ‡ l'institution (1969-2016)
+• Jon Postel, ´ Dieu d'Internet ª selon The Economist, Èdite les RFC de 1969 ‡ sa mort en 1998,
+fonde l'IANA (registre des adresses IP, ports et noms), et incarne le principe de robustesse : ´
+Soyez tolÈrant dans ce que vous acceptez, et pointilleux dans ce que vous envoyez ª (RFC 791)
+— le vrai ciment d'interopÈrabilitÈ face au modËle OSI concurrent (WikipÈdia — Jon Postel (en),
+WikipÈdia — Jon Postel, ICANNWiki — Jon Postel, RFC 2468 — I Remember IANA).
+• Le groupe de travail informel de Crocker et Postel devient l'IETF (1986), sous l'Ègide de l'Internet
+Society (1992), premiËre membre : Jon Postel (WikipÈdia — Jon Postel (en)).
+• 1998 : crÈation de l'ICANN, organisation ‡ but non lucratif reprenant les fonctions de l'IANA pour
+les noms de domaine et les adresses IP ; le lien historique avec le gouvernement amÈricain est
+progressivement dÈnouÈ jusqu'‡ la transition de 2016 (ICANN — Projet d'histoire, WikipÈdia —
+ICANN, ICANN — Relation avec le gouvernement amÈricain). 
+
+
+
+
+
